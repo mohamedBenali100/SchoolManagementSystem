@@ -1,0 +1,15 @@
+
+<?php
+			$id=$_GET['id'];
+				try {
+				    $dbh=new PDO("mysql:host=localhost;dbname=gestion_ecole",'root',''); 
+						$req="delete  FROM professeur where Id_prof = '".$id."'";
+						  $stmt=$dbh->prepare($req) ;
+						  $stmt->execute();
+						  header("location:listeprof.php");
+				}
+				catch(PDOException $e)
+				    {
+				         echo  $e->getMessage();
+				    }
+			?>

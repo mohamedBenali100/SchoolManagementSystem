@@ -1,0 +1,152 @@
+.authentification{
+	width: 40%;
+	margin: auto;
+	margin-top: 70px;
+}
+.affichage{
+	width: 1552px;
+	margin: auto;
+	margin-top: 50px;
+	margin-right: 0px;
+	height: 1000px;
+	border: none;
+}
+.image{
+	height:80px;
+}
+.a1{
+	height: 50px;
+	font-size: 20px;
+  	background-color: #f8f8f8;
+  	padding-left: 8px;
+}
+.cader {
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.card {
+	background-color: #f8f8f8;
+	margin: 20px;
+	padding-top: 13px;
+	padding-bottom: 20px;
+	border-radius: 4px;
+	border: 1px solid;
+	border-color: #e7e7e7;
+}
+
+#btn {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.part {
+	width: 45%;
+	float: left;
+	text-align: right;
+}
+.part > div{
+	padding-bottom: 50px;
+
+}
+
+.panel-headin{
+background-color: #f8f8f8;
+}
+span{
+	padding-right: 7px;
+}
+
+.modalx{
+	background: #fff;
+	position: absolute;
+	z-index:99999999999999999999999;
+	padding:50px;
+	min-height:300px;
+	width:500px;
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-50%);
+	display: none;
+}
+ .bg{
+	position: fixed;
+	background: #000;
+	display: none;	
+	top:0px;
+	left:0px;
+	z-index:99999;
+	width:100%;
+	opacity:0.5;
+	height: 100%;
+	/* z-index:99; */
+}
+
+.modalx .close{
+	position: absolute;
+	right:0px;
+	top: -20px;
+	color:#fff;
+	opacity:1;
+}
+.modalx .round{
+	background: #aaa;
+	height:100px;
+	width:100px;
+	margin:auto;
+	border-radius:100px;
+	overflow: hidden;
+	text-align: center;
+}
+.modalx .round i{
+	font-size:80px;
+	color:#fff;
+	line-height:1.6;
+}
+.modalx h2{
+	text-align:center;
+	display: block;
+	/* background: #ddd; */
+}
+.modalx ul{
+	display: block;
+	/* background: #ddd; */
+	margin:0px;
+	padding:0px;
+}
+.modalx ul li{
+	list-style:none;
+	overflow:hidden;
+	margin-bottom:10px;;
+	display: block;
+	width:100%;
+}
+.modalx ul li b{
+	float:left;
+	text-align: left;
+	display: inline-block;
+	/* background: #dad; */
+	color:#fff;
+	background: #000;
+	padding:5px 20px;
+	border-radius:100px;
+}
+.modalx ul li span{
+	float:right;
+	color:#222;
+}
+.a9{
+    margin-top: 2px;
+}
+.a7{
+	float:left;
+	border:none;
+	padding-right: 20px;	
+}
+.a8{
+	border:none;
+	background-color: transparent;
+	cursor: pointer;
+
+}

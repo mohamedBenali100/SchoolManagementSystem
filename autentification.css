@@ -1,0 +1,12 @@
+body{
+	background-image:url("image/iconbg1.jpeg");
+	background-attachment: fixed;	
+	background-size: cover;
+}
+.custom{
+	margin-top:150px;
+
+}
+h5{
+	text-align: center;
+}
